@@ -58,7 +58,7 @@ const GameResultsView = props => {
           </ResultImageContainer>
           <ResultImageContainer>
             <ResultName>OPPONENT</ResultName>
-            <GameImage src={newArray[1].imageUrl} alt="opponent choice" />
+            <GameImage src={newArray[1].imageUrl} alt="opponent choices" />
           </ResultImageContainer>
           <ResultImageContainer>
             <ResultText>{text}</ResultText>
